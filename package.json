@@ -1,0 +1,32 @@
+{
+  "name": "vue-cli-plugin-vue-native",
+  "version": "0.0.1",
+  "description": "A Vue CLI plugin to generate Vue Native apps",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --ext .js",
+    "lint:fix": "eslint ./ --ext .js --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RishabhKarnad/vue-cli-plugin-vue-native.git"
+  },
+  "homepage": "https://github.com/RishabhKarnad/vue-cli-plugin-vue-native",
+  "keywords": [
+    "vue",
+    "cli",
+    "vue-native",
+    "plugin"
+  ],
+  "author": "RishabhKarnad",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-vue": "^6.0.0",
+    "prettier": "^1.18.2"
+  }
+}
