@@ -1,6 +1,6 @@
 <template>
   <view class="container">
-    <text>{{message}}</text>
+    <text>{{ message }}</text>
     <button title="Press me!" @press="exclaim" />
   </view>
 </template>
@@ -8,14 +8,14 @@
 <script>
 export default {
   data: () => ({
-    message: 'Hello, world',
+    message: "Hello, world"
   }),
   methods: {
     exclaim() {
-      this.message += '!';
-    },
-  },
-}
+      this.message += "!";
+    }
+  }
+};
 </script>
 
 <style>

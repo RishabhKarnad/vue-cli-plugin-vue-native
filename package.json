@@ -4,8 +4,8 @@
   "description": "A Vue CLI plugin to generate Vue Native apps",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint ./ --ext .js",
-    "lint:fix": "eslint ./ --ext .js --fix",
+    "lint": "eslint ./ --ext .js,.vue",
+    "lint:fix": "eslint ./ --ext .js,.vue --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
